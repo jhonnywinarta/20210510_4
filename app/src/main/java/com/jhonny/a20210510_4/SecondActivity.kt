@@ -17,6 +17,7 @@ class SecondActivity : AppCompatActivity() {
             webv.settings.javaScriptEnabled = true
             webv.setWebViewClient(WebViewClient())
             webv.loadUrl(website)
+
         }
 
         btnBack.setOnClickListener(object: View.OnClickListener{
